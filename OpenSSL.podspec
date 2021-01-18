@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
     BUILD_ROOT="/tmp/openssl-pod"
 
     # Order of ARCHS is somewhat significant since our pod exposes the headers from the last built arch
-    ARCHS="i386 x86_64 armv7 armv7s arm64"
+    ARCHS="i386 x86_64 arm64"
     DEVELOPER=`xcode-select -print-path`
     OUTPUT_DIR="${BUILD_ROOT}/output"
 
